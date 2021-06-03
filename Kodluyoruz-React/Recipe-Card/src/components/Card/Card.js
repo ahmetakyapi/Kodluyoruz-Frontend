@@ -17,7 +17,7 @@ export default function Card(props) {
           <div className='card-date'>{date}</div>
         </div>
       </div>
-      <img className='card-image' src={image} alt='image' />
+      <img className='card-image' src={image} alt='image'/> 
       <div className='card-text'>{description}</div>
       <div className='card-like-bar'>
         {props.liked ? (
